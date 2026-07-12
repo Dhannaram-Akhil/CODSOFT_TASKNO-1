@@ -1,4 +1,4 @@
- Professional AI/ML & Web Development Portfolio
+ Professional  DevPortfolio
 
 A modern, high-performance, and fully responsive personal portfolio website designed to showcase technical expertise, featured applications, and academic credentials. This project demonstrates clean frontend engineering practices paired with robust client-side validation and dynamic user experience controls.
 
