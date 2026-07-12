@@ -48,7 +48,7 @@ Iconographic Infrastructure: `FontAwesome CDN`
 📂 File Framework Organization
 text
 |
-CodeAlpha_Portfolio/
+CodeAlpha_Portfolio
 │
 ├── index.html          / /Semantic layout backbone structure & component modules
 ├── style.css           // Styling sheets, layout rules, animations, dark mode overrides & mobile media queries
