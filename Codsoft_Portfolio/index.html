@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Development Portfolio</title>
+    <!-- Modern styling sheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for high-quality interface icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Responsive Navigation Menu -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo-theme-wrapper">
+                <a href="#home" class="logo">Dev<span>Portfolio</span></a>
+                <!-- Icon-Only Theme Button next to Logo -->
+                <button id="themeToggleBtn" class="theme-icon-btn" aria-label="Toggle layout theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#resume" class="nav-link">Resume</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="hamburger-toggle" id="hamburger" aria-label="Toggle navigation menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- 1. Home Section (Hero) -->
+    <header id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Hello, I'm <span class="accent-text">Dhannaram Akhil</span></h1>
+            <p>Passionate Frontend Developer creating seamless, user-centric web applications.</p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">Explore My Work</a>
+                <a href="#contact" class="btn btn-secondary">Let's Connect</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. About Me Section -->
+    <section id="about" class="site-section">
+        <div class="section-container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-resume-layout">
+                
+                <!-- Your Custom Professional Summary -->
+                <div class="resume-block">
+                    <h3 class="block-heading"><i class="fas fa-user-tie"></i> Professional Summary</h3>
+                    <p class="block-text">
+                        Highly motivated and analytically driven B.Tech Computer Science Engineering student specializing in Artificial Intelligence & Machine Learning, dedicated to leveraging advanced computing paradigms to build intelligent, scalable software solutions. Possesses a rigorous academic foundation in core computer science disciplines, algorithmic problem-solving, and relational database architecture. Proven capability in translating theoretical software engineering concepts into fully functional applications, demonstrated through a deployed portfolio of interactive, responsive web applications and object-oriented programs. A proactive learner and collaborative team player seeking a challenging software engineering or AI/ML internship to contribute fresh perspectives and technical acumen to impactful, real-world industry initiatives.
+                    </p>
+                </div>
+
+                <!-- Personal Details Block -->
+                <div class="resume-block">
+                    <h3 class="block-heading"><i class="fas fa-id-card"></i> Personal Details</h3>
+                    <div class="details-grid-simple">
+                        <p><strong>Name:</strong>Dhannaram Akhil</p>
+                        <p><strong>Specialization:</strong> CSE (AI & ML)</p>
+                        <p><strong>Email:</strong> dannaramakhil222@gmail.com</p>
+                        <p><strong>Location:</strong> Hyderabad, India</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Technical Skills Section -->
+    <section id="skills" class="site-section alternate-bg">
+        <div class="section-container">
+            <h2 class="section-title">Technical Expertise</h2>
+            <div class="skills-grid">
+                
+                <!-- Skill Item 1: Core Web Languages -->
+                <div class="skill-item">
+                    <i class="fab fa-html5 skill-icon html-color"></i>
+                    <h3>HTML5 & Semantic Web</h3>
+                    <p>Writing clean, structured, and accessible semantic markup. Deep understanding of DOM tree structure, custom data attributes, and SEO baseline principles.</p>
+                </div>
+
+                <!-- Skill Item 2: Advanced CSS Styling -->
+                <div class="skill-item">
+                    <i class="fab fa-css3-alt skill-icon css-color"></i>
+                    <h3>Modern CSS & Layouts</h3>
+                    <p>Building complex, fully responsive system layouts using Flexbox and CSS Grid architecture. Proficient in media queries, transitions, keyframe animations, and design tokens.</p>
+                </div>
+
+                <!-- Skill Item 3: Core Logic Programming -->
+                <div class="skill-item">
+                    <i class="fab fa-js skill-icon js-color"></i>
+                    <h3>Advanced JavaScript (ES6+)</h3>
+                    <p>Core programming proficiency including async/await, API integration, fetch protocols, array methods, event propagation models, and browser data storage mechanics.</p>
+                </div>
+
+                <!-- Skill Item 4: Framework Readiness -->
+                <div class="skill-item">
+                    <i class="fab fa-react skill-icon react-color"></i>
+                    <h3>Modern Framework Basics</h3>
+                    <p>Familiarity with component-driven UI concepts, component lifecycle properties, structured state management, and props passing logic.</p>
+                </div>
+
+                <!-- Skill Item 5: Workflow Systems -->
+                <div class="skill-item">
+                    <i class="fab fa-git-alt skill-icon git-color"></i>
+                    <h3>Git & Version Control</h3>
+                    <p>Managing standard local git cycles, staging files, documenting clear commit logs, fixing merge conflicts, and publishing repositories clean to GitHub repositories.</p>
+                </div>
+
+                <!-- Skill Item 6: Optimization & Tools -->
+                <div class="skill-item">
+                    <i class="fas fa-tools skill-icon tools-color"></i>
+                    <h3>Optimization & DevTools</h3>
+                    <p>Debugging dynamic UI interactions, monitoring memory/network logs in Browser DevTools, optimizing images, and deploying staging environments to platforms like Netlify or GitHub Pages.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Projects Showcase Section -->
+    <section id="projects" class="site-section">
+        <div class="section-container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                
+                <!-- Project Card 1: Music Player -->
+                <article class="project-card">
+                    <div class="project-visual">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <div class="project-body">
+                        <h3>Interactive Music Player</h3>
+                        <p>A styled audio playback player featuring customized audio controls, real-time track tracking, volume controls, and fluid timeline scrubbing.</p>
+                        <a href="https://akhil-music-player.vercel.app/" target="_blank" class="project-action-link">Launch Live Application <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </article>
+
+                <!-- Project Card 2: Image Gallery -->
+                <article class="project-card">
+                    <div class="project-visual">
+                        <i class="fas fa-images"></i>
+                    </div>
+                    <div class="project-body">
+                        <h3>Responsive Image Gallery</h3>
+                        <p>A dynamic visual display gallery using modern layouts, smooth fade transitions, category filters, and an interactive light-box viewer mode.</p>
+                        <a href="https://akhil-image-gallery.vercel.app/" target="_blank" class="project-action-link">Launch Live Application <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </article>
+
+                <!-- Project Card 3: Calculator -->
+                <article class="project-card">
+                    <div class="project-visual">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <div class="project-body">
+                        <h3>JavaScript Calculator</h3>
+                        <p>A mathematically sound calculation application managing sequential operations, keyboard inputs, clear screens, and instantaneous UI updates.</p>
+                        <a href="https://akhil-calculator.vercel.app/" target="_blank" class="project-action-link">Launch Live Application <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </article>
+
+                <!-- Project Card 4: Mini Interactive Game -->
+                <article class="project-card">
+                    <div class="project-visual">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <div class="project-body">
+                        <h3>Interactive Web Game</h3>
+                        <p>A fast-paced browser game implementing JavaScript loop logic, dynamic score tracking, collision patterns, and state resets.</p>
+                        <a href="https://your-game-link.vercel.app/" target="_blank" class="project-action-link">Launch Live Application <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Professional Resume Section -->
+    <section id="resume" class="site-section alternate-bg">
+    <div class="section-container text-center">
+        <h2 class="section-title">Professional Resume</h2>
+        <p class="resume-intro-text">Click below to view my detailed technical education background, core web engineering skill matrices, and completed internship coursework credentials.</p>
+        
+        <!-- Updated anchor path to point exactly to your personal file name -->
+        <a href="akhil-resume.pdf" download="Akhil_Resume.pdf" class="btn btn-primary download-btn">
+            <i class="fas fa-cloud-download-alt"></i> Download Full CV / Resume
+        </a>
+    </div>
+</section>
+
+    <!-- 6. Interactive Contact Section -->
+<section id="contact" class="site-section">
+    <div class="section-container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-wrapper">
+            <!-- Form points to Web3Forms API -->
+            <form id="portfolioContactForm" class="contact-form" action="https://api.web3forms.com/submit" method="POST" novalidate>
+                
+                <!-- Placed your actual unique access key right here -->
+                <input type="hidden" name="access_key" value="3b388f59-c25b-41c2-add8-51adef10a3d0">
+                
+                <input type="hidden" name="subject" value="New Portfolio Message from Client">
+
+                <div class="form-input-group">
+                    <label for="userName">Full Name</label>
+                    <input type="text" id="userName" name="name" placeholder="John Doe">
+                    <small class="error-feedback" id="nameErrorMsg"></small>
+                </div>
+                
+                <div class="form-input-group">
+                    <label for="userEmail">Email Address</label>
+                    <input type="email" id="userEmail" name="email" placeholder="johndoe@example.com">
+                    <small class="error-feedback" id="emailErrorMsg"></small>
+                </div>
+                
+                <div class="form-input-group">
+                    <label for="userMessage">Your Message</label>
+                    <textarea id="userMessage" name="message" rows="6" placeholder="Write your project details or message here..."></textarea>
+                    <small class="error-feedback" id="messageErrorMsg"></small>
+                </div>
+                
+                <button type="submit" class="btn btn-primary btn-block">Send Secure Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer Area -->
+    <footer class="site-footer">
+        <p>&copy; 2026 Dhannaram Akhil. Crafted independently for DevPortfolio</p>
+    </footer>
+
+    <!-- Frontend Interactive Logic Script Connection -->
+    <script src="script.js"></script>
+</body>
+</html>
